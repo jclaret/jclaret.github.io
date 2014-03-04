@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Introducción a Ruby</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">jclaret.github.io</a></h1>
+            <a class="extra" href="/">home</a>
+          </div>
+
+          <h2>Introducción a Ruby</h2>
+<p class="meta">04 Mar 2014</p>
+
+<div class="post">
+<p>Comenzamos este blog escrito en <a href="%09http://en.wikipedia.org/wiki/Markdown">markdown</a> con una breve introducción a Ruby, que no es más que un resumen del curso de iniciación a ruby disponible en la web <a href="http://www.floqq.com/">CursoIniciacionRuby</a>.</p>
+
+<h2>Conceptos básicos</h2>
+
+<ul>
+<li><p>Lenguaje interpretado, no compilado.</p></li>
+<li><p>Orientado a objetos, todo es un objeto. Ejemplo que pinta los números del 1 al 10. &#39;ruby numeros<em>1</em>al_10.rb&#39;</p></li>
+</ul>
+
+<div class="highlight"><pre><code class="ruby"><span class="mi">10</span><span class="o">.</span><span class="n">times</span><span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">}</span>
+</code></pre></div>
+
+<ul>
+<li>Case sensitive, diferenciamos entres minúsculas/mayúsculas.  En este ejemplo vemos 2 variables con el mismo nombre pero diferenciadas por la primera letra. &#39;ruby case_sensitive.rb&#39;</li>
+</ul>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">mcfly</span> <span class="o">=</span> <span class="s1">&#39;Marty McFly&#39;</span>
+<span class="nb">puts</span> <span class="n">mcfly</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="ruby"><span class="no">Mcfly</span> <span class="o">=</span> <span class="s1">&#39;Marty McFly&#39;</span>
+<span class="nb">puts</span> <span class="no">Mcfly</span>
+</code></pre></div>
+
+<ul>
+<li>No hace falta <strong>RETURN</strong>, siempre devuelve el resultado de la última expresión interpretada. En este ejemplo, definimos una función de suma y aunque no definimos el return de la función, cuando invoquemos la misma nos devolverá la suma. &#39;ruby noreturn.rb&#39;</li>
+</ul>
+
+<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">suma</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+  <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<ul>
+<li>Convenciones
+
+<ul>
+<li>Clases : CamelCase. Primer letra de cada palabra en mayúsculas.</li>
+<li>Métodos : snake<em>case. Todo en minúscula y separamos las palabras con un &#39;</em>&#39;.</li>
+<li>Variables : snake_case. Idem.</li>
+<li>Constantes : mayúsculas. Todo en mayúsculas.</li>
+</ul></li>
+</ul>
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Your Name<br />
+                What You Are<br />
+                you@example.com
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
+                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
