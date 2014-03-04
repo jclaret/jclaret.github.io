@@ -10,17 +10,16 @@ Comenzamos este blog escrito en [markdown] con una breve introducción a Ruby, q
 Conceptos básicos
 -----------------
 
-  * Lenguaje interpretado, no compilado.
+ - Lenguaje interpretado, no compilado.
 
-  * Orientado a objetos, todo es un objeto. Ejemplo que pinta los números del 1 al 10. 'ruby numeros_1_al_10.rb'
+ - Orientado a objetos, todo es un objeto. Ejemplo que pinta los números del 1 al 10. 'ruby numeros_1_al_10.rb'
 
 {% highlight ruby %}
 10.times{|i| puts i + 1}
 {% endhighlight %}
 
 
-
-  * Case sensitive, diferenciamos entres minúsculas/mayúsculas.  En este ejemplo vemos 2 variables con el mismo nombre pero diferenciadas por la primera letra. 'ruby case_sensitive.rb'
+ - Case sensitive, diferenciamos entres minúsculas/mayúsculas.  En este ejemplo vemos 2 variables con el mismo nombre pero diferenciadas por la primera letra. 'ruby case_sensitive.rb'
 
 
 {% highlight ruby %}
