@@ -1,3 +1,7 @@
 name: jclaret.github.io
-markdown: redcarpet
+markdown: pandoc
+pandoc:
+  extensions: 
+    - smart
+    - mathjax
 pygments: true
