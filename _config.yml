@@ -1,7 +1,3 @@
 name: jclaret.github.io
-markdown: pandoc
-pandoc:
-  extensions: 
-    - smart
-    - mathjax
+markdown:  rdiscount
 pygments: true

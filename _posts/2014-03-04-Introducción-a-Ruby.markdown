@@ -15,22 +15,9 @@ Comenzamos este blog escrito en [markdown] con una breve introducción a Ruby, q
 
  - Orientado a objetos, todo es un objeto. Ejemplo que pinta los números del 1 al 10. 'ruby numeros_1_al_10.rb'
 
+{% highlight ruby %}
 10.times{|i| puts i + 1}
-```html
-<!doctype html>
-<html lang=en>
-<head>
-<meta charset=utf-8>
-<title> {% raw %}{{ page.title }}{% endraw %} </title>
-</head>
-<body>
-
-{% raw %}{{ page.content }}{% endraw %}
-
-</body>
-</html>
-```
-
+{% highlight%}
 
  - Case sensitive, diferenciamos entres minúsculas/mayúsculas.  En este ejemplo vemos 2 variables con el mismo nombre pero diferenciadas por la primera letra. 'ruby case_sensitive.rb'
 
