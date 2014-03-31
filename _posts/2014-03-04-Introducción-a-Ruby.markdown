@@ -15,22 +15,7 @@ Comenzamos este blog escrito en [markdown] con una breve introducción a Ruby, q
 
  - Orientado a objetos, todo es un objeto. Ejemplo que pinta los números del 1 al 10. 'ruby numeros_1_al_10.rb'
 
-{% highlight ruby %}
-10.times{|i| puts i + 1}
-{% highlight%}
-
  - Case sensitive, diferenciamos entres minúsculas/mayúsculas.  En este ejemplo vemos 2 variables con el mismo nombre pero diferenciadas por la primera letra. 'ruby case_sensitive.rb'
-
-
-{% highlight ruby %}
-mcfly = 'Marty McFly'
-puts mcfly
-{% endhighlight %}
-
-{% highlight ruby %}
-Mcfly = 'Marty McFly'
-puts Mcfly
-{% endhighlight %}
 
 
   * No hace falta **RETURN**, siempre devuelve el resultado de la última expresión interpretada. En este ejemplo, definimos una función de suma y aunque no definimos el return de la función, cuando invoquemos la misma nos devolverá la suma. 'ruby noreturn.rb'
