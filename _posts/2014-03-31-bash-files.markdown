@@ -12,3 +12,9 @@ Aunque no es necesario que todos estos ficheros existan, siempre es bueno tenerl
 
 /etc/profile 
  : Archivo de inicialización utilizado por los terminales
+
+Primer termino
+ : Primera definición
+
+Segundo termino
+ : Segunda definición
